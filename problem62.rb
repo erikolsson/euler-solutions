@@ -23,7 +23,8 @@ while true
 	cubes[largest].permutations += 1
 
 	if cubes[largest].permutations == 5
-		puts "the smallest cube: #{cubes[largest].smallest_n}"
+		perm = cubes[largest].smallest_n
+		puts "the smallest cube: #{perm * perm * perm}"
 		break
 	end
 
