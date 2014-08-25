@@ -1,1 +1,0 @@
-puts 1.upto(999).find_all{|item| item % 3 == 0 or item % 5 == 0}.inject(:+)

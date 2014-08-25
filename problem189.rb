@@ -1,2 +1,0 @@
-
-triangle = Array.new
