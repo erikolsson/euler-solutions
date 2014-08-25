@@ -1,0 +1,1 @@
+p (2**1000).to_s.split(//).map{|c| c.to_i}.inject(:+)
